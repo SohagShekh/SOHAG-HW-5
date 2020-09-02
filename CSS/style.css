@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.main-header{
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+}
+.header-text{
+    height: 100%;
+    text-align: center;
+    padding: 30vh 20vw;
+}
+.content{
+    height: 100%;
+    padding: 10vh 0;
+}
+.icon-class .icon{
+    font-size: 3rem;
+    color: white;
+    padding: 10px 15px;
+}
+.icon-class .icon-1{
+    font-size: 3rem;
+    color: white;
+    padding: 10px 15px;
+}
+.icon-class .icon-2{
+    font-size: 3rem;
+    color: white;
+    padding: 10px 15px;
+}
+.clip{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background: mediumspringgreen;
+    width: 6vw;
+    height: 11vh;
+    margin: 3vh 0;
+} 
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
